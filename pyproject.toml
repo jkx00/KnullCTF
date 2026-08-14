@@ -42,6 +42,7 @@ dependencies = [
     "cffi==1.17.1",
     "six==1.17.0",
     "urllib3==2.6.0",
+    "psycopg2-binary>=2.9.6",
 ]
 
 [dependency-groups]

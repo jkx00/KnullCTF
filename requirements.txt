@@ -6,8 +6,6 @@ alembic==1.16.4
     #   flask-migrate
 aniso8601==10.0.1
     # via flask-restx
-async-timeout==5.0.1 ; python_full_version <= '3.11.2'
-    # via redis
 attrs==25.3.0
     # via
     #   jsonschema
@@ -127,6 +125,8 @@ packaging==25.0
 passlib==1.7.4
     # via ctfd
 pillow==12.2.0
+    # via ctfd
+psycopg2-binary==2.9.6
     # via ctfd
 pycparser==2.22
     # via cffi
